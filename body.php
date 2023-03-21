@@ -10,9 +10,7 @@
                             <div class="row">
                                 <?php include_once('./components/slide-image.php')?>
                                     <?php
-                                        for ($i=1; $i <6 ; $i++) { 
                                             include_once('./components/grid-slide.php'); 
-                                        } 
                                     ?>
                             </div>
                         </div>  
@@ -24,10 +22,8 @@
                     <div class="box-item">
                         <div class="row">
                             <?php include_once('./components/slide-image-2.php');?>
-                                 <?php
-                                        for ($i=1; $i <6 ; $i++) { 
+                                 <?php 
                                             include_once('./components/grid-slide-2.php');
-                                        } 
                                     ?>
                         </div>
                     </div>
@@ -40,12 +36,13 @@
                         <div class="row">
                             <?php include_once('./components/slide-image-3.php');?>
                                  <?php
-                                        for ($i=1; $i <6 ; $i++) { 
                                             include_once('./components/grid-slide-3.php'); 
-                                        } 
                                     ?>
                             </div>
                 </div>
     </div>
 </div>
-             
+
+<div class="grid-finish">
+    <?php include_once('./components/grid-finish.php')?>
+</div>
